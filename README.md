@@ -1,6 +1,7 @@
 # CineSync
 
 Welcome to CineSync, your go-to movie search application for exploring, discovering, and curating your favorite films.
+[![CineSync Logo](img/logo.png)](https://cinesyncc.netlify.app/)
 
 ## Overview
 
