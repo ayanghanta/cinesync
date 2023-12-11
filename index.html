@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineSync</title>
+    <meta
+      name="description"
+      content="Discover, explore, and personalize your movie experience with our intuitive movie search application. Find your favorite films, explore detailed information, and build your curated collection. Start your cinematic journey with CineSync today!"
+    />
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple180.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/general.css" />
+    <link rel="stylesheet" href="style/media.css" />
+    <script type="module" src="js/controller.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <section class="section__preview">
+        <div class="section__preview--header">
+          <form action="#" class="sreach-form" autocomplete="off">
+            <input
+              type="text"
+              spellcheck="false"
+              class="movieQuery"
+              name="movie-query"
+              placeholder="Find your favorite movie..."
+            />
+            <button type="submit" class="icon-container submit-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon_preview--header"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                ></path>
+              </svg>
+            </button>
+          </form>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-watchlist"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64Zm104,56H40a8,8,0,0,0,0,16h96a8,8,0,0,0,0-16Zm0,64H40a8,8,0,0,0,0,16h96a8,8,0,0,0,0-16Zm108.24-30.78-64-40A8,8,0,0,0,168,120v80a8,8,0,0,0,12.24,6.78l64-40a8,8,0,0,0,0-13.56Z"
+            ></path>
+          </svg>
+          <div class="watchlist">
+            <!-- fav-CARD-1 -->
+            <p class="pretext--bookmark">
+              Find a greate movie, start your collection!❤️
+            </p>
+          </div>
+        </div>
+        <div class="section__preview--body">
+          <!-- CARD:1 -->
+        </div>
+        <div class="section__preview--footer">
+          <a href="https://ayanwebdev.netlify.app/" class="footer-link"
+            >&copy;Ayan Ghanta</a
+          >
+        </div>
+      </section>
+      <section class="section__movieInfo">
+        <p class="welcome-text">
+          😃Welcome! Start by searching for your favorite movies and discover a
+          world of cinematic wonders.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

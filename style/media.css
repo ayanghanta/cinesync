@@ -1,0 +1,40 @@
+/* MEDIA QUERY */
+/* media query at[864px] */
+@media (max-width: 54em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+/* media query at[752px] */
+@media (max-width: 47em) {
+  .movie_poster--small {
+    padding: 0.4rem;
+  }
+  .movieQuery {
+    width: 22.5rem;
+  }
+}
+/* media query at[688px] */
+@media (max-width: 43em) {
+  .icon-watchlist {
+    margin-left: 0.2rem;
+  }
+  .movieQuery {
+    width: 18rem;
+  }
+  .movie__data {
+    gap: 1rem;
+  }
+  .movie--description {
+    font-size: 1rem;
+  }
+  .move-stats {
+    gap: 1.2rem;
+  }
+  .card__movie-title {
+    font-size: 1.5rem;
+  }
+  .movie--title {
+    font-size: 2rem;
+  }
+}

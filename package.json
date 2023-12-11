@@ -1,0 +1,19 @@
+{
+  "name": "cinesync",
+  "version": "1.0.0",
+  "description": "A movie searching application.",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "ayan ghanta",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.3"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.10.3",
+    "@parcel/transformer-webmanifest": "^2.10.3"
+  }
+}
