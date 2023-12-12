@@ -59,7 +59,7 @@ const controllBookmark = function () {
   // 3. render in the watchlist
   bookmarkView.render(model.state.bookmarks);
   // 4. Update the current showed movie DOM
-  if (model.state.bookmarks.length === 0) return bookmarkView.renderMassage();
+  if (model.state.bookmarks.length === 0) bookmarkView.renderMassage();
   movieView.update(model.state.showedMovie);
 };
 const init = function () {
